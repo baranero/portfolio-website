@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "Eat IT",
-    subtitle: "React Hooks",
+    title: "Simon Game",
+    subtitle: "JavaScript",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./culinary-recipes.png",
-    link: "https://baranero.github.io/culinary-recipes/",
+    link: "https://baranero.github.io/simon-game/",
   },
   {
     title: "Sign up form",
