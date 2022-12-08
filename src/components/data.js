@@ -3,7 +3,7 @@ export const projects = [
     title: "Eat IT",
     subtitle: "React with API",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "An application that allows you to generate recipes based on the entered data.",
     image: "./culinary-recipes.png",
     link: "https://baranero.github.io/culinary-recipes/",
   },
@@ -11,23 +11,23 @@ export const projects = [
     title: "Simon Game",
     subtitle: "Javascript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A simple and popular game. Code written in pure Javascript.",
     image: "./simon-game.png",
     link: "https://baranero.github.io/simon-game/",
   },
   {
-    title: "My travel journal",
-    subtitle: "React Hooks",
+    title: "Fake Bike website",
+    subtitle: "HTML and Bootstrap",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./travel-journal.png",
-    link: "https://baranero.github.io/travel-journal/",
+      "A website presenting a fake bicycle application",
+    image: "./fake-bike.png",
+    link: "https://baranero.github.io/fake-bike/",
   },
   {
     title: "The Hangman",
     subtitle: "Vanilla JavaScript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A hangman game, the app generates the alphabet and draws a hanged man after each wrong answer.",
     image: "./hangman.png",
     link: "https://baranero.github.io/hangman/",
   },
