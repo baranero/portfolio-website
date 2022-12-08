@@ -1,19 +1,19 @@
 export const projects = [
   {
-    title: "Simon Game",
-    subtitle: "JavaScript",
+    title: "Eat IT",
+    subtitle: "React with API",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./culinary-recipes.png",
-    link: "https://baranero.github.io/simon-game/",
+    link: "https://baranero.github.io/culinary-recipes/",
   },
   {
-    title: "Sign up form",
-    subtitle: "React Hooks",
+    title: "Simon Game",
+    subtitle: "Javascript",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./signup-form.png",
-    link: "https://baranero.github.io/signup-form/",
+    image: "./simon-game.png",
+    link: "https://baranero.github.io/simon-game/",
   },
   {
     title: "My travel journal",
@@ -34,4 +34,4 @@ export const projects = [
 ];
 
 
-export const skills = ['HTML5', 'CSS3', 'JavaScript', 'React', 'GIT', 'GitHub', 'REST API', 'Tailwind CSS']
+export const skills = ['HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap', 'JavaScript ES6', 'React', 'Node.js', 'GIT', 'GitHub', 'API', 'SQL', 'NoSQL']
