@@ -1,15 +1,23 @@
 export const projects = [
   {
+    title: "Expenses counter",
+    subtitle: "React",
+    description:
+      "[...PROJECT IN PROGRESS...] Collect all your expenses and see how spendthrift you are.",
+    image: "./expenses-counter.png",
+    link: "https://baranero.github.io/expenses-counter/",
+  },
+  {
     title: "Eat IT",
     subtitle: "React with API",
     description:
-      "An application that allows you to generate recipes based on the entered data.",
+      "[...PROJECT IN PROGRESS...] An application that allows you to generate recipes based on the entered data.",
     image: "./culinary-recipes.png",
     link: "https://baranero.github.io/culinary-recipes/",
   },
   {
     title: "Simon Game",
-    subtitle: "Javascript",
+    subtitle: "JavaScript",
     description:
       "A simple and popular game. Code written in pure Javascript.",
     image: "./simon-game.png",
@@ -25,7 +33,7 @@ export const projects = [
   },
   {
     title: "The Hangman",
-    subtitle: "Vanilla JavaScript",
+    subtitle: "JavaScript",
     description:
       "A hangman game, the app generates the alphabet and draws a hanged man after each wrong answer.",
     image: "./hangman.png",
