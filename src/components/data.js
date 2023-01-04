@@ -1,9 +1,17 @@
 export const projects = [
   {
+    title: "Food Order App",
+    subtitle: "React Hooks",
+    description:
+      "Example of simple food order app.",
+    image: "./food-order-app.png",
+    link: "https://baranero.github.io/food-order-app/",
+  },
+  {
     title: "Expenses counter",
     subtitle: "React",
     description:
-      "[...PROJECT IN PROGRESS...] Collect all your expenses and see how spendthrift you are.",
+      "Collect all your expenses and see how spendthrift you are.",
     image: "./expenses-counter.png",
     link: "https://baranero.github.io/expenses-counter/",
   },

@@ -10,7 +10,7 @@ export default function About() {
             <br className="hidden lg:inline-block" /> I am a beginner programmer.
           </h1>
           <p className="mb-8 leading-relaxed">
-          I am a Master of Science in Fire Safety and an active officer of the Fire Service. I am looking for a place that will allow me to confront my skills on the commercial market and get experience. My availability is around 15 working days.
+          I am a master of fire safety engineer and an active fire brigade officer. I am looking for a place that will allow me to confront my skills on the commercial market and gain experience. I can combine work in the State Fire Service, as I do now, with work as a Designer of Fire Safety Systems. I am passionate about programming. Getting to know new technologies gives me great satisfaction and I do it in every free moment. In my work as a designer, I learned the specifics of working with projects, contact with the client and taking responsibility for my own part of the project.
           </p>
           <div className="flex justify-center">
             <a
