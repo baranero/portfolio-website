@@ -34,7 +34,7 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.1182544002927!2d18.112176315904595!3d51.76744529947695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1b7198a88f88bf0f!2zNTHCsDQ2JzAyLjgiTiAxOMKwMDYnNTEuNyJF!5e0!3m2!1spl!2spl!4v1667409652468!5m2!1spl!2spl"
           />
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+          <div className="bg-gray-900 relative flex flex-wrap py-6 px-4 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS

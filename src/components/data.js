@@ -1,5 +1,21 @@
 export const projects = [
   {
+    title: "Space Web",
+    subtitle: "React Hooks, React Router, Sass",
+    description:
+      "Website design made on the basis of a graphic design. Fully responsive.",
+    image: "./space-web.png",
+    link: "https://baranero.github.io/space-web-react-scss/",
+  },
+  {
+    title: "Fake Lottery",
+    subtitle: "React Hooks i.a. useContext, useReducer, useRef",
+    description:
+      "An application that imitates a lottery website. You can choose your own numbers and add the coupon to the cart.",
+    image: "./fake-lottery.png",
+    link: "https://baranero.github.io/fake-lottery/",
+  },
+  {
     title: "Food Order App",
     subtitle: "React Hooks",
     description:
@@ -50,4 +66,4 @@ export const projects = [
 ];
 
 
-export const skills = ['HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap', 'JavaScript ES6', 'React', 'Node.js', 'GIT', 'GitHub', 'API', 'SQL', 'NoSQL']
+export const skills = ['HTML5', 'CSS3', 'SCSS/Saas', 'Tailwind CSS', 'Bootstrap', 'JavaScript', 'React', 'Node.js', 'GIT', 'GitHub', 'API', 'SQL', 'NoSQL']
