@@ -11,7 +11,7 @@ export const projects = [
     title: "Fake Lottery",
     subtitle: "React Hooks i.a. useContext, useReducer, useRef",
     description:
-      "An application that imitates a lottery website. You can choose your own numbers and add the coupon to the cart. App is still develop, so it's just a piece of all functionality",
+      "You can choose your own numbers and add the coupon to the cart. App is still develop, so it's just a piece of all functionality",
     image: "./fake-lottery.png",
     link: "https://baranero.github.io/fake-lottery/",
   },
