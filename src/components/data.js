@@ -11,7 +11,7 @@ export const projects = [
     title: "Fake Lottery",
     subtitle: "React Hooks i.a. useContext, useReducer, useRef",
     description:
-      "An application that imitates a lottery website. You can choose your own numbers and add the coupon to the cart.",
+      "An application that imitates a lottery website. You can choose your own numbers and add the coupon to the cart. App is still develop, so it's just a piece of all functionality",
     image: "./fake-lottery.png",
     link: "https://baranero.github.io/fake-lottery/",
   },
@@ -35,7 +35,7 @@ export const projects = [
     title: "Eat IT",
     subtitle: "React with API",
     description:
-      "[...PROJECT IN PROGRESS...] An application that allows you to generate recipes based on the entered data.",
+      "THE APP IS STILL DEVELOP AND CONTAINS BUGS. An application that allows you to generate recipes based on the entered data.",
     image: "./culinary-recipes.png",
     link: "https://baranero.github.io/culinary-recipes/",
   },
