@@ -13,7 +13,7 @@ export const projects = [
     description:
       "You can choose your own numbers and add the coupon to the cart. App is still develop, so it's just a piece of all functionality",
     image: "./fake-lottery.png",
-    link: "https://baranero.github.io/fake-lottery/",
+    link: "https://baranero.github.io/lottery-game/",
   },
   {
     title: "Food Order App",
