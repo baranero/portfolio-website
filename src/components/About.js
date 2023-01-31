@@ -9,8 +9,8 @@ export default function About() {
             Hi, I'm Jakub.
             <br className="hidden lg:inline-block" /> I am a beginner programmer.
           </h1>
-          <p className="mb-8 leading-relaxed">
-          I am a master of fire safety engineer and an active fire brigade officer. I am looking for a place that will allow me to confront my skills on the commercial market and gain experience. I can combine work in the State Fire Service, as I do now, with work as a Designer of Fire Safety Systems. I am passionate about programming. Getting to know new technologies gives me great satisfaction and I do it in every free moment. In my work as a designer, I learned the specifics of working with projects, contact with the client and taking responsibility for my own part of the project.
+          <p className="mb-8 leading-relaxed text-justify">
+          I am a firefighter and designer of fire protection systems. I know from experience how to work with a client, how to properly manage a project and how to meet deadlines. I also work well in a team and get along with every member. I have no commercial experience in programming, but programming has become my passion and I devote every free moment to learning. As a beginner, I don't have any salary requirements, I just want to prove my worth as a developer.
           </p>
           <div className="flex justify-center">
             <a

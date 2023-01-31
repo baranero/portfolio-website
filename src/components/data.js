@@ -66,4 +66,4 @@ export const projects = [
 ];
 
 
-export const skills = ['HTML5', 'CSS3', 'SCSS/Saas', 'Tailwind CSS', 'Bootstrap', 'JavaScript', 'React', 'Node.js', 'GIT', 'GitHub', 'API', 'SQL', 'NoSQL']
+export const skills = ['HTML5', 'CSS3', 'Saas', 'Tailwind CSS', 'Bootstrap', 'JavaScript', 'React', 'React Router', 'Redux', 'GIT', 'GitHub', 'API', 'SQL', 'NoSQL']
