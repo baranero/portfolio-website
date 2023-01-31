@@ -6,8 +6,7 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, I'm Jakub.
-            <br className="hidden lg:inline-block" /> I am a beginner programmer.
+            Something about me
           </h1>
           <p className="mb-8 leading-relaxed text-justify">
           I am a firefighter and designer of fire protection systems. I know from experience how to work with a client, how to properly manage a project and how to meet deadlines. I also work well in a team and get along with every member. I have no commercial experience in programming, but programming has become my passion and I devote every free moment to learning. As a beginner, I don't have any salary requirements, I just want to prove my worth as a developer.
