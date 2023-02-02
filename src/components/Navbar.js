@@ -17,7 +17,9 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-
+          <a href="https://github.com/baranero" rel="noreferrer" target="_blank" className="mr-5 hover:text-white">
+            GitHub
+          </a>
         </nav>
         <a
           href="#contact"

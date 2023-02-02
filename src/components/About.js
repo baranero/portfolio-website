@@ -9,7 +9,9 @@ export default function About() {
             Something about me
           </h1>
           <p className="mb-8 leading-relaxed text-justify">
-          I am a firefighter and designer of fire protection systems. I know from experience how to work with a client, how to properly manage a project and how to meet deadlines. I also work well in a team and get along with every member. I have no commercial experience in programming, but programming has become my passion and I devote every free moment to learning. As a beginner, I don't have any salary requirements, I just want to prove my worth as a developer.
+          I am a firefighter and designer of fire protection systems. I know from experience how to work with a client, how to properly manage a project and how to meet deadlines. I also work well in a team and get along with each member. I have no commercial experience in programming, but programming has become my passion and I really enjoy to learn new technologies.<br/>
+          I know what is hoisting and event loop and also i know more about Git than commit to main.<br/>
+          As a beginner, I don't have any salary requirements, I just want to prove my worth as a developer.
           </p>
           <div className="flex justify-center">
             <a

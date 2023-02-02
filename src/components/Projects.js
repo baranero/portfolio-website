@@ -37,8 +37,13 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
+                  <div className="flex justify-center my-2">
+                    <a href={project.github} rel="noreferrer" target="_blank"><img className="h-8 mx-auto px-2" src="./github.png" alt="github logo" /></a>
+                    <a href={project.link} rel="noreferrer" target="_blank"><img className="h-9 mx-auto px-2" src="./website.png" alt="github logo" /></a>
+                  </div>
                 </div>
               </div>
+
             </a>
           ))}
         </div>
