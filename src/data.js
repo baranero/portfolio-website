@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: "Colors Filter",
-    subtitle: "Typescript, SCSS",
+    subtitle: "Typescript, React, SCSS",
     description:
       "Pick colors by RGB HEX and filter them.",
     image: "./colors.png",
