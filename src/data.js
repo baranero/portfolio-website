@@ -13,7 +13,7 @@ export const projects = [
     subtitle: "Typescript, SCSS",
     description:
       "Pick colors by RGB HEX and filter them.",
-    image: "./users-info.png",
+    image: "./colors.png",
     link: "https://baranero.github.io/colors-filter/",
     github: "https://github.com/baranero/colors-filter"
   },
