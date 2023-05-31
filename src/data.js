@@ -38,4 +38,61 @@ export const projects = [
 ];
 
 
-export const skills = ['HTML5', 'CSS3', 'Saas', 'JavaScript', 'React', 'Redux', 'TypeScript', 'Next.js', 'GIT', 'GitHub', 'Databases']
+export const skills = [
+  {
+    name: 'HTML5',
+    icon: <i className="fab fa-html5"></i>,
+    color: 'text-red-500',
+  },
+  {
+    name: 'CSS3',
+    icon: <i className="fab fa-css3-alt"></i>,
+    color: 'text-blue-500',
+  },
+  {
+    name: 'SCSS',
+    icon: <i className="fab fa-scss"></i>,
+    color: 'text-pink-500',
+  },
+  {
+    name: 'JavaScript',
+    icon: <i className="fab fa-js"></i>,
+    color: 'text-yellow-500',
+  },
+  {
+    name: 'React',
+    icon: <i className="fab fa-react"></i>,
+    color: 'text-blue-300',
+  },
+  {
+    name: 'Redux',
+    icon: <i className="fab fa-react"></i>,
+    color: 'text-purple-500',
+  },
+  {
+    name: 'TypeScript',
+    icon: <i className="fab fa-react"></i>,
+    color: 'text-blue-600',
+  },
+  {
+    name: 'Next.js',
+    icon: <i className="fab fa-react"></i>,
+    color: 'text-gray-400',
+  },
+  {
+    name: 'GIT',
+    icon: <i className="fab fa-git"></i>,
+    color: 'text-red-700',
+  },
+  {
+    name: 'GitHub',
+    icon: <i className="fab fa-github"></i>,
+    color: 'text-gray-700',
+  },
+  {
+    name: 'Databases',
+    icon: <i className="fas fa-database"></i>,
+    color: 'text-indigo-400',
+  },
+];
+
