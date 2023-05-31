@@ -1,8 +1,10 @@
 import { CodeIcon } from "@heroicons/react/solid";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { projects } from "../data";
 
 export default function Projects() {
+  const [hoveredProject, setHoveredProject] = useState(null);
+
   useEffect(() => {
     const slideInElements = document.querySelectorAll('.slide-in');
     const slideInContent = () => {
@@ -24,6 +26,14 @@ export default function Projects() {
     };
   }, []);
 
+  const handleProjectHover = (project) => {
+    setHoveredProject(project);
+  };
+
+  const handleProjectLeave = () => {
+    setHoveredProject(null);
+  };
+
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -44,14 +54,17 @@ export default function Projects() {
               rel="noreferrer"
               target="_blank"
               className="sm:w-1/2 w-full p-4 slide-in"
+              onMouseEnter={() => handleProjectHover(project)}
+              onMouseLeave={handleProjectLeave}
             >
               <div className="flex relative hover:scale-[1.05]">
                 <img
                   alt="gallery"
-                  className="absolute py-2 inset-0 w-full h-60 object-cover object-center"
+                  className="absolute inset-0 w-full h-60 object-cover object-center opacity-100 transition-opacity duration-300"
                   src={project.image}
+                  style={{ opacity: hoveredProject === project ? 0.7 : 1 }}
                 />
-                <div className="px-8 py-2 relative z-10 w-full h-60 border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="px-8 relative flex flex-col justify-center z-10 w-full h-60 border-4 border-gray-800 bg-gray-900 bg-opacity-100 opacity-0 hover:opacity-[85%] transition duration-300">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
@@ -60,11 +73,21 @@ export default function Projects() {
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
                   <div className="flex justify-center my-2">
-                    <a href={project.github} rel="noreferrer" target="_blank">
-                      <img className="h-8 mx-auto px-2" src="./github.png" alt="github logo" />
+                    <a
+                      href={project.github}
+                      rel="noreferrer"
+                      target="_blank"
+                      className="transform transition-transform duration-300 hover:scale-125"
+                    >
+                      <img className="h-8 mx-auto px-2 opacity-50" src="./github.png" alt="github logo" />
                     </a>
-                    <a href={project.link} rel="noreferrer" target="_blank">
-                      <img className="h-9 mx-auto px-2" src="./website.png" alt="website logo" />
+                    <a
+                      href={project.link}
+                      rel="noreferrer"
+                      target="_blank"
+                      className="transform transition-transform duration-300 hover:scale-125"
+                    >
+                      <img className="h-9 mx-auto px-2 opacity-50" src="./website.png" alt="website logo" />
                     </a>
                   </div>
                 </div>
