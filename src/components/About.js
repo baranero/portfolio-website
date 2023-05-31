@@ -30,7 +30,7 @@ export default function About() {
             Something about me
           </h1>
           <p className="mb-8 leading-relaxed text-justify">
-            &nbsp;&nbsp;I am a beginner frontend developer. I create my own non-commercial projects. So far, I've been doing them for educational purposes. My last completed FireApp project is a complete tool for automating some activities in my work. I would like to use my gained skills in a professional company.<br/><br/>
+            &nbsp;&nbsp;I am a beginner frontend developer. I create my own non-commercial projects. So far, I've been doing them for educational purposes. I am systematic in the learning process, which is visible on my GitHub profile. My last completed FireApp project is a complete tool for automating some activities in my work. I would like to use my gained skills in a professional company.<br/><br/>
             &nbsp;&nbsp; I work as a Captain Officer in Fire Department and designer of fire safety systems. My experience is not directly connected to programming but it taught me several crucial abilities required in every business. I know how to properly manage projects, how to meet deadlines and work with clients.
           </p>
           <div className="flex justify-center">
